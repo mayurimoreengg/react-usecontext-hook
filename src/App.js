@@ -17,7 +17,7 @@ export default function App() {
       setUsername('Mayuri');
       setSub('Maths');
     }
-    setClicks(!clicks);
+    setClicks(prevClicks => !prevClicks);
   };
   return (
     <div>
